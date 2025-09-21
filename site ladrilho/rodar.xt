@@ -1,0 +1,7 @@
+
+cd /c/Estacio/projetos/site\ ladrilho    --- Ir até a pasta.
+
+gcc amor_f.c -o amor_f.exe -lfreeglut -lopengl32 -lglu32  ------ Compilar o projeto.
+
+./amor_f.exe    --- Executar o projeto.
+

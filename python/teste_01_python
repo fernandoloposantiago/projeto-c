@@ -1,0 +1,17 @@
+nome = "Fernando"
+idade = 40
+
+# Entrada de dados do usuário
+altura = float(input("Digite sua altura em metros:"))
+peso = float(input("Digite seu peso em kg:"))
+
+#calcular o  iMC (inicia de massa corporal)
+imc = peso / (altura **2)
+
+#Saida de dados formatada
+
+print(f"Nome: {nome}")
+print(f"Idade: {idade}")
+print(f"Altura: {altura}")
+print(f"Peso: {peso}")
+print(f"IMC: {imc}")
